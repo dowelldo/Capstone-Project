@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Comment Filter</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Comment Filter 1.0</h1>
+    </div>
+    <div class="settings">
+        <div class="word_filter">
+            <p>Enter words or phrases below, separated by commas, that you'd like to filter out:</p>
+            <textarea name="filter_words" id="filter_words" cols="30" rows="10"></textarea><br>
+            <input type="checkbox" name="swear_words" checked>Filter swear words
+        </div>
+    </div>
+    <div class="language">
+        <input type="checkbox" name="negative">Filter negativity
+    </div>
+    <div class="go_button">
+        <button name="go">Filter!</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
