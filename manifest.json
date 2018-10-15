@@ -1,11 +1,12 @@
 {
-    "manifest-version": 2,
+    "manifest_version": 2,
     "name": "Comment Filtering",
     "description": "Easily weed out comments based on customizeable parameters and/or language processing.",
-    "icon": {"128": "icon_128.png"},
+    "version": "1.0",
+    "icons": {"128": "icon_128.png"},
     "browser_action": {
-        "default_icon": "icon,png",
+        "default_icon": "icon.png",
         "default_popup": "popup.html"
     },
-    "permissions": "activeTab"
+    "permissions": ["activeTab"]
 }
